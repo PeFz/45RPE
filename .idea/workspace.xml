@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="808b5ec7-3ad3-4ec5-8065-e5199763c6a3" name="Changes" comment="Exercicio 1.1">
+    <list default="true" id="808b5ec7-3ad3-4ec5-8065-e5199763c6a3" name="Changes" comment="Exercicio 1.3">
+      <change afterPath="$PROJECT_DIR$/ExerciciosAlg/EX_5.2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,18 +23,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "PeFz"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;PeFz&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/PeFz/45RPE",
-    "accountId": "1ae9e270-8454-4d84-bd3b-bd7a7d42eeab"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/PeFz/45RPE&quot;,
+    &quot;accountId&quot;: &quot;1ae9e270-8454-4d84-bd3b-bd7a7d42eeab&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -48,6 +49,9 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.EX_1.2.executor": "Run",
+    "Python.EX_1.3.executor": "Run",
+    "Python.EX_5.2.executor": "Run",
     "Python.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -66,7 +70,7 @@
       <recent name="C:\Users\09719714980\PycharmProjects\PythonProject\ExerciciosAlg" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.EX_1.3">
+  <component name="RunManager" selected="Python.EX_5.2">
     <configuration name="EX_1.1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonProject" />
       <option name="ENV_FILES" value="" />
@@ -136,8 +140,32 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="EX_5.2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ExerciciosAlg" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ExerciciosAlg/EX_5.2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.EX_5.2" />
         <item itemvalue="Python.EX_1.3" />
         <item itemvalue="Python.EX_1.2" />
         <item itemvalue="Python.EX_1.1" />
@@ -160,7 +188,8 @@
       <option name="presentableId" value="Default" />
       <updated>1754347189918</updated>
       <workItem from="1754347190937" duration="1087000" />
-      <workItem from="1754348619970" duration="2697000" />
+      <workItem from="1754348619970" duration="4110000" />
+      <workItem from="1754949338416" duration="2533000" />
     </task>
     <task id="LOCAL-00001" summary="Exercicio 1.1">
       <option name="closed" value="true" />
@@ -170,7 +199,23 @@
       <option name="project" value="LOCAL" />
       <updated>1754353290710</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Exercicio 1.2">
+      <option name="closed" value="true" />
+      <created>1754353948271</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1754353948271</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Exercicio 1.3">
+      <option name="closed" value="true" />
+      <created>1754354026964</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1754354026964</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,9 +234,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Exercicio 1.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exercicio 1.1" />
+    <MESSAGE value="Exercicio 1.2" />
+    <MESSAGE value="Exercicio 1.3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exercicio 1.3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/PythonProject$EX_1_2.coverage" NAME="EX_1.2 Coverage Results" MODIFIED="1754353938995" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ExerciciosAlg" />
+    <SUITE FILE_PATH="coverage/PythonProject$EX_1_3.coverage" NAME="EX_1.3 Coverage Results" MODIFIED="1754949551952" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ExerciciosAlg" />
     <SUITE FILE_PATH="coverage/PythonProject$Main.coverage" NAME="Main Coverage Results" MODIFIED="1754352702408" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonProject$EX_5_2.coverage" NAME="EX_5.2 Coverage Results" MODIFIED="1754952845140" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ExerciciosAlg" />
   </component>
 </project>

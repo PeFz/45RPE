@@ -13,6 +13,8 @@ def arrumaLista(a):
 
 v = [15, 27, 33, 46, 51, 63, 71, 82, 90]
 
+arrumaLista(v)
+
 #BuscaBin
 def busca_binaria(lista, alvo):
     esq, dir = 0, len(lista) - 1

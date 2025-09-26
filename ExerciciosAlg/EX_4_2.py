@@ -11,10 +11,6 @@ def arrumaLista(a):
         n -= 1
     return a
 
-v = [15, 27, 33, 46, 51, 63, 71, 82, 90]
-
-arrumaLista(v)
-
 #BuscaBin
 def busca_binaria(lista, alvo):
     esq, dir = 0, len(lista) - 1
@@ -29,5 +25,3 @@ def busca_binaria(lista, alvo):
     return -1
 
 
-busca = busca_binaria(v, 90)
-print(busca)

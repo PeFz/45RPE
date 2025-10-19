@@ -1,0 +1,4 @@
+Qual a complexidade de tempo no pior caso de realizar n remoções de um dicionário implementado usando
+um arranjo ordenado que contém inicialmente 2n entradas?
+
+O(n²), exemplo similar ao 8.1

@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="808b5ec7-3ad3-4ec5-8065-e5199763c6a3" name="Changes" comment="Exercicio 4.2">
-      <change afterPath="$PROJECT_DIR$/ExerciciosAlg/3_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExerciciosAlg/3_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExerciciosAlg/3_3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExerciciosAlg/3_5.py" afterDir="false" />
+    <list default="true" id="808b5ec7-3ad3-4ec5-8065-e5199763c6a3" name="Changes" comment="Exercicio 3.1, 3.2, 3.3, 3.5 - implemented new functions and updated workspace configuration">
+      <change afterPath="$PROJECT_DIR$/ExerciciosAlg/Dicionarios_Hash_tables_8/EX_81" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExerciciosAlg/Dicionarios_Hash_tables_8/EX_82" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExerciciosAlg/Dicionarios_Hash_tables_8/EX_83" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExerciciosAlg/Dicionarios_Hash_tables_8/EX_84.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExerciciosAlg/Dicionarios_Hash_tables_8/EX_85.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExerciciosAlg/Dicionarios_Hash_tables_8/EX_86.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/ExerciciosAlg/Main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -21,6 +23,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="Jupyter Notebook" />
       </list>
     </option>
   </component>
@@ -33,12 +36,12 @@
     &quot;assignee&quot;: &quot;PeFz&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/PeFz/45RPE&quot;,
-    &quot;accountId&quot;: &quot;1ae9e270-8454-4d84-bd3b-bd7a7d42eeab&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/PeFz/45RPE",
+    "accountId": "9eb8cde4-8521-419f-8c16-8a712ca9ffbe"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -58,6 +61,7 @@
     "Python.EX_4.2.executor": "Run",
     "Python.EX_5.1.executor": "Run",
     "Python.EX_5.2.executor": "Run",
+    "Python.EX_85.executor": "Run",
     "Python.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -79,30 +83,7 @@
       <recent name="C:\Users\09719714980\PycharmProjects\PythonProject\ExerciciosAlg" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.EX_5.1">
-    <configuration name="EX_1.2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PythonProject" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ExerciciosAlg" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ExerciciosAlg/EX_1.2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.EX_85">
     <configuration name="EX_1.3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonProject" />
       <option name="ENV_FILES" value="" />
@@ -193,13 +174,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="EX_85" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ExerciciosAlg/Dicionarios_Hash_tables_8" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ExerciciosAlg/Dicionarios_Hash_tables_8/EX_85.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.EX_85" />
         <item itemvalue="Python.EX_5.1" />
         <item itemvalue="Python.EX_4_2" />
         <item itemvalue="Python.EX_5.2" />
         <item itemvalue="Python.EX_1.3" />
-        <item itemvalue="Python.EX_1.2" />
       </list>
     </recent_temporary>
   </component>
@@ -269,7 +272,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758850143001</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Exercicio 3.1, 3.2, 3.3, 3.5 - implemented new functions and updated workspace configuration">
+      <option name="closed" value="true" />
+      <created>1758997475176</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1758997475176</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -291,7 +302,8 @@
     <MESSAGE value="Exercicio 1.2" />
     <MESSAGE value="Exercicio 1.3" />
     <MESSAGE value="Exercicio 4.2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exercicio 4.2" />
+    <MESSAGE value="Exercicio 3.1, 3.2, 3.3, 3.5 - implemented new functions and updated workspace configuration" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exercicio 3.1, 3.2, 3.3, 3.5 - implemented new functions and updated workspace configuration" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PythonProject$EX_1_2.coverage" NAME="EX_1.2 Coverage Results" MODIFIED="1754353938995" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ExerciciosAlg" />

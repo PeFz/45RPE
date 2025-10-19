@@ -1,0 +1,7 @@
+Qual a complexidade de tempo no pior caso de inserir n pares chave-valor em um dicionário inicialmente
+vazio, implementado usando um arranjo não ordenado?
+
+Ao inserir n pares (chave, valor) em um dicionário implementado com um arranjo não ordenado, a complexidade de tempo no
+pior caso é O(n²). Isso ocorre porque, para cada nova inserção, é necessário percorrer todos os elementos
+já existentes a fim de verificar se a chave já foi inserida. Como o arranjo não é ordenado, essa busca é
+linear (O(n)) e, ao repetir o processo n vezes, o custo total resulta em O(n²).

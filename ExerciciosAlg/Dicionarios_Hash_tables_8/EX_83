@@ -1,0 +1,8 @@
+Qual a complexidade assintótica de tempo no pior caso de inserir n entradas em uma tabela hash inicialmente vazia,
+com colisões resolvidas por encadeamento? Qual a complexidade no melhor caso?
+
+No pior caso seria O(n²), pensando q todas inserçoes seriam no mesmo bucket, ai teria q rodar o array p achar a posiçao
+dps a sub-lista da posiçao
+
+No melhor seria O(n), ja que precisaria rodar a lista apenas uma vez
+
